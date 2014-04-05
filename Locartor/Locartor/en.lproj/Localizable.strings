@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  Locartor
+
+  Created by Manu on 05/04/14.
+  Copyright (c) 2014 thebitisland. All rights reserved.
+*/
+
+
+"map" = "Map";
+"retrieve" = "Retrieve";
+"save" = "Save";

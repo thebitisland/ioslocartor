@@ -19,9 +19,17 @@
 		EF83052218F04E8F00313DCE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF83050A18F04E8F00313DCE /* UIKit.framework */; };
 		EF83052A18F04E8F00313DCE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF83052818F04E8F00313DCE /* InfoPlist.strings */; };
 		EF83052C18F04E8F00313DCE /* LocartorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF83052B18F04E8F00313DCE /* LocartorTests.m */; };
+<<<<<<< HEAD
 		EF83053618F04ECB00313DCE /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF83053518F04ECB00313DCE /* Storyboard.storyboard */; };
 		EF83053A18F04F4300313DCE /* TBIMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF83053818F04F4300313DCE /* TBIMainViewController.m */; };
 		EF83053B18F04F4300313DCE /* TBIMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF83053918F04F4300313DCE /* TBIMainViewController.xib */; };
+=======
+		EF83054018F0512200313DCE /* TBIMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF83053E18F0512200313DCE /* TBIMapViewController.m */; };
+		EF83054118F0512200313DCE /* TBIMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF83053F18F0512200313DCE /* TBIMapViewController.xib */; };
+		EF83054418F0527000313DCE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF83054318F0527000313DCE /* MapKit.framework */; };
+		EF83054918F0533B00313DCE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF83054B18F0533B00313DCE /* Localizable.strings */; };
+		EF83055018F060A600313DCE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF83054F18F060A600313DCE /* CoreLocation.framework */; };
+>>>>>>> mapacentral
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,10 +59,22 @@
 		EF83052718F04E8F00313DCE /* LocartorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LocartorTests-Info.plist"; sourceTree = "<group>"; };
 		EF83052918F04E8F00313DCE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EF83052B18F04E8F00313DCE /* LocartorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocartorTests.m; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		EF83053518F04ECB00313DCE /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		EF83053718F04F4300313DCE /* TBIMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBIMainViewController.h; sourceTree = "<group>"; };
 		EF83053818F04F4300313DCE /* TBIMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBIMainViewController.m; sourceTree = "<group>"; };
 		EF83053918F04F4300313DCE /* TBIMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TBIMainViewController.xib; sourceTree = "<group>"; };
+=======
+		EF83053D18F0512200313DCE /* TBIMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBIMapViewController.h; sourceTree = "<group>"; };
+		EF83053E18F0512200313DCE /* TBIMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBIMapViewController.m; sourceTree = "<group>"; };
+		EF83053F18F0512200313DCE /* TBIMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TBIMapViewController.xib; sourceTree = "<group>"; };
+		EF83054318F0527000313DCE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		EF83054518F052E600313DCE /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF83054618F052E600313DCE /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF83054A18F0533B00313DCE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EF83054E18F0534900313DCE /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EF83054F18F060A600313DCE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+>>>>>>> mapacentral
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +82,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF83055018F060A600313DCE /* CoreLocation.framework in Frameworks */,
+				EF83054418F0527000313DCE /* MapKit.framework in Frameworks */,
 				EF83050918F04E8F00313DCE /* CoreGraphics.framework in Frameworks */,
 				EF83050B18F04E8F00313DCE /* UIKit.framework in Frameworks */,
 				EF83050718F04E8F00313DCE /* Foundation.framework in Frameworks */,
@@ -104,6 +126,8 @@
 		EF83050518F04E8F00313DCE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EF83054F18F060A600313DCE /* CoreLocation.framework */,
+				EF83054318F0527000313DCE /* MapKit.framework */,
 				EF83050618F04E8F00313DCE /* Foundation.framework */,
 				EF83050818F04E8F00313DCE /* CoreGraphics.framework */,
 				EF83050A18F04E8F00313DCE /* UIKit.framework */,
@@ -117,7 +141,11 @@
 			children = (
 				EF83051518F04E8F00313DCE /* TBIAppDelegate.h */,
 				EF83051618F04E8F00313DCE /* TBIAppDelegate.m */,
+<<<<<<< HEAD
 				EF83053C18F04F4700313DCE /* Controllers */,
+=======
+				EF83054218F0512900313DCE /* Controllers */,
+>>>>>>> mapacentral
 				EF83051818F04E8F00313DCE /* Images.xcassets */,
 				EF83050D18F04E8F00313DCE /* Supporting Files */,
 			);
@@ -131,6 +159,7 @@
 				EF83050F18F04E8F00313DCE /* InfoPlist.strings */,
 				EF83051218F04E8F00313DCE /* main.m */,
 				EF83051418F04E8F00313DCE /* Locartor-Prefix.pch */,
+				EF83054B18F0533B00313DCE /* Localizable.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -153,12 +182,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		EF83053C18F04F4700313DCE /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				EF83053718F04F4300313DCE /* TBIMainViewController.h */,
 				EF83053818F04F4300313DCE /* TBIMainViewController.m */,
 				EF83053918F04F4300313DCE /* TBIMainViewController.xib */,
+=======
+		EF83054218F0512900313DCE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EF83053D18F0512200313DCE /* TBIMapViewController.h */,
+				EF83053E18F0512200313DCE /* TBIMapViewController.m */,
+				EF83053F18F0512200313DCE /* TBIMapViewController.xib */,
+>>>>>>> mapacentral
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -222,6 +260,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				es,
 			);
 			mainGroup = EF8304FA18F04E8F00313DCE;
 			productRefGroup = EF83050418F04E8F00313DCE /* Products */;
@@ -240,7 +279,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF83051118F04E8F00313DCE /* InfoPlist.strings in Resources */,
+<<<<<<< HEAD
 				EF83053B18F04F4300313DCE /* TBIMainViewController.xib in Resources */,
+=======
+				EF83054918F0533B00313DCE /* Localizable.strings in Resources */,
+				EF83054118F0512200313DCE /* TBIMapViewController.xib in Resources */,
+>>>>>>> mapacentral
 				EF83051918F04E8F00313DCE /* Images.xcassets in Resources */,
 				EF83053618F04ECB00313DCE /* Storyboard.storyboard in Resources */,
 			);
@@ -262,6 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF83051718F04E8F00313DCE /* TBIAppDelegate.m in Sources */,
+				EF83054018F0512200313DCE /* TBIMapViewController.m in Sources */,
 				EF83051318F04E8F00313DCE /* main.m in Sources */,
 				EF83053A18F04F4300313DCE /* TBIMainViewController.m in Sources */,
 			);
@@ -290,6 +335,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				EF83051018F04E8F00313DCE /* en */,
+				EF83054518F052E600313DCE /* es */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -298,8 +344,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				EF83052918F04E8F00313DCE /* en */,
+				EF83054618F052E600313DCE /* es */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EF83054B18F0533B00313DCE /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF83054A18F0533B00313DCE /* en */,
+				EF83054E18F0534900313DCE /* es */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -460,6 +516,7 @@
 				EF83053118F04E8F00313DCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF83053218F04E8F00313DCE /* Build configuration list for PBXNativeTarget "LocartorTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +525,7 @@
 				EF83053418F04E8F00313DCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
