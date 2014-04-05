@@ -20,6 +20,16 @@
     self.window.rootViewController = self.mainVC;
 
     [self.window makeKeyAndVisible];
+<<<<<<< HEAD
+=======
+    
+    // Handle launching from a notification
+    UILocalNotification *locationNotification = [launchOptions objectForKey:UIApplicationLaunchOptionsLocalNotificationKey];
+    if (locationNotification) {
+        // Set icon badge number to zero
+        application.applicationIconBadgeNumber = 0;
+    }
+>>>>>>> origin/save
 
     return YES;
 }
