@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF40799418F07CD300B07973 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF40799318F07CD300B07973 /* Foundation.framework */; };
+		EF40799618F07CD300B07973 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF40799518F07CD300B07973 /* CoreGraphics.framework */; };
+		EF40799818F07CD300B07973 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF40799718F07CD300B07973 /* UIKit.framework */; };
+		EF40799E18F07CD300B07973 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF40799C18F07CD300B07973 /* InfoPlist.strings */; };
+		EF4079A018F07CD300B07973 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF40799F18F07CD300B07973 /* main.m */; };
+		EF4079A418F07CD300B07973 /* TBIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4079A318F07CD300B07973 /* TBIAppDelegate.m */; };
+		EF4079A618F07CD300B07973 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF4079A518F07CD300B07973 /* Images.xcassets */; };
+		EF4079AD18F07CD400B07973 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF4079AC18F07CD400B07973 /* XCTest.framework */; };
+		EF4079AE18F07CD400B07973 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF40799318F07CD300B07973 /* Foundation.framework */; };
+		EF4079AF18F07CD400B07973 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF40799718F07CD300B07973 /* UIKit.framework */; };
+		EF4079B718F07CD400B07973 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF4079B518F07CD400B07973 /* InfoPlist.strings */; };
+		EF4079B918F07CD400B07973 /* locartorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4079B818F07CD400B07973 /* locartorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF4079B018F07CD400B07973 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF40798818F07CD300B07973 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF40798F18F07CD300B07973;
+			remoteInfo = locartor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF40799018F07CD300B07973 /* locartor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = locartor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF40799318F07CD300B07973 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EF40799518F07CD300B07973 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EF40799718F07CD300B07973 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EF40799B18F07CD300B07973 /* locartor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "locartor-Info.plist"; sourceTree = "<group>"; };
+		EF40799D18F07CD300B07973 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF40799F18F07CD300B07973 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF4079A118F07CD300B07973 /* locartor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "locartor-Prefix.pch"; sourceTree = "<group>"; };
+		EF4079A218F07CD300B07973 /* TBIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBIAppDelegate.h; sourceTree = "<group>"; };
+		EF4079A318F07CD300B07973 /* TBIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBIAppDelegate.m; sourceTree = "<group>"; };
+		EF4079A518F07CD300B07973 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EF4079AB18F07CD400B07973 /* locartorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = locartorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4079AC18F07CD400B07973 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EF4079B418F07CD400B07973 /* locartorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "locartorTests-Info.plist"; sourceTree = "<group>"; };
+		EF4079B618F07CD400B07973 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF4079B818F07CD400B07973 /* locartorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = locartorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF40798D18F07CD300B07973 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF40799618F07CD300B07973 /* CoreGraphics.framework in Frameworks */,
+				EF40799818F07CD300B07973 /* UIKit.framework in Frameworks */,
+				EF40799418F07CD300B07973 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4079A818F07CD400B07973 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4079AD18F07CD400B07973 /* XCTest.framework in Frameworks */,
+				EF4079AF18F07CD400B07973 /* UIKit.framework in Frameworks */,
+				EF4079AE18F07CD400B07973 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF40798718F07CD300B07973 = {
+			isa = PBXGroup;
+			children = (
+				EF40799918F07CD300B07973 /* locartor */,
+				EF4079B218F07CD400B07973 /* locartorTests */,
+				EF40799218F07CD300B07973 /* Frameworks */,
+				EF40799118F07CD300B07973 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF40799118F07CD300B07973 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF40799018F07CD300B07973 /* locartor.app */,
+				EF4079AB18F07CD400B07973 /* locartorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF40799218F07CD300B07973 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF40799318F07CD300B07973 /* Foundation.framework */,
+				EF40799518F07CD300B07973 /* CoreGraphics.framework */,
+				EF40799718F07CD300B07973 /* UIKit.framework */,
+				EF4079AC18F07CD400B07973 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF40799918F07CD300B07973 /* locartor */ = {
+			isa = PBXGroup;
+			children = (
+				EF4079A218F07CD300B07973 /* TBIAppDelegate.h */,
+				EF4079A318F07CD300B07973 /* TBIAppDelegate.m */,
+				EF4079A518F07CD300B07973 /* Images.xcassets */,
+				EF40799A18F07CD300B07973 /* Supporting Files */,
+			);
+			path = locartor;
+			sourceTree = "<group>";
+		};
+		EF40799A18F07CD300B07973 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF40799B18F07CD300B07973 /* locartor-Info.plist */,
+				EF40799C18F07CD300B07973 /* InfoPlist.strings */,
+				EF40799F18F07CD300B07973 /* main.m */,
+				EF4079A118F07CD300B07973 /* locartor-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF4079B218F07CD400B07973 /* locartorTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF4079B818F07CD400B07973 /* locartorTests.m */,
+				EF4079B318F07CD400B07973 /* Supporting Files */,
+			);
+			path = locartorTests;
+			sourceTree = "<group>";
+		};
+		EF4079B318F07CD400B07973 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF4079B418F07CD400B07973 /* locartorTests-Info.plist */,
+				EF4079B518F07CD400B07973 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF40798F18F07CD300B07973 /* locartor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF4079BC18F07CD400B07973 /* Build configuration list for PBXNativeTarget "locartor" */;
+			buildPhases = (
+				EF40798C18F07CD300B07973 /* Sources */,
+				EF40798D18F07CD300B07973 /* Frameworks */,
+				EF40798E18F07CD300B07973 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = locartor;
+			productName = locartor;
+			productReference = EF40799018F07CD300B07973 /* locartor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF4079AA18F07CD400B07973 /* locartorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF4079BF18F07CD400B07973 /* Build configuration list for PBXNativeTarget "locartorTests" */;
+			buildPhases = (
+				EF4079A718F07CD400B07973 /* Sources */,
+				EF4079A818F07CD400B07973 /* Frameworks */,
+				EF4079A918F07CD400B07973 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF4079B118F07CD400B07973 /* PBXTargetDependency */,
+			);
+			name = locartorTests;
+			productName = locartorTests;
+			productReference = EF4079AB18F07CD400B07973 /* locartorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF40798818F07CD300B07973 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TBI;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = thebitisland;
+				TargetAttributes = {
+					EF4079AA18F07CD400B07973 = {
+						TestTargetID = EF40798F18F07CD300B07973;
+					};
+				};
+			};
+			buildConfigurationList = EF40798B18F07CD300B07973 /* Build configuration list for PBXProject "locartor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EF40798718F07CD300B07973;
+			productRefGroup = EF40799118F07CD300B07973 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF40798F18F07CD300B07973 /* locartor */,
+				EF4079AA18F07CD400B07973 /* locartorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF40798E18F07CD300B07973 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF40799E18F07CD300B07973 /* InfoPlist.strings in Resources */,
+				EF4079A618F07CD300B07973 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4079A918F07CD400B07973 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4079B718F07CD400B07973 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF40798C18F07CD300B07973 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4079A418F07CD300B07973 /* TBIAppDelegate.m in Sources */,
+				EF4079A018F07CD300B07973 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4079A718F07CD400B07973 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4079B918F07CD400B07973 /* locartorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF4079B118F07CD400B07973 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF40798F18F07CD300B07973 /* locartor */;
+			targetProxy = EF4079B018F07CD400B07973 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF40799C18F07CD300B07973 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF40799D18F07CD300B07973 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EF4079B518F07CD400B07973 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF4079B618F07CD400B07973 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF4079BA18F07CD400B07973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF4079BB18F07CD400B07973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF4079BD18F07CD400B07973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "locartor/locartor-Prefix.pch";
+				INFOPLIST_FILE = "locartor/locartor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EF4079BE18F07CD400B07973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "locartor/locartor-Prefix.pch";
+				INFOPLIST_FILE = "locartor/locartor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EF4079C018F07CD400B07973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/locartor.app/locartor";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "locartor/locartor-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "locartorTests/locartorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EF4079C118F07CD400B07973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/locartor.app/locartor";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "locartor/locartor-Prefix.pch";
+				INFOPLIST_FILE = "locartorTests/locartorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF40798B18F07CD300B07973 /* Build configuration list for PBXProject "locartor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4079BA18F07CD400B07973 /* Debug */,
+				EF4079BB18F07CD400B07973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF4079BC18F07CD400B07973 /* Build configuration list for PBXNativeTarget "locartor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4079BD18F07CD400B07973 /* Debug */,
+				EF4079BE18F07CD400B07973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF4079BF18F07CD400B07973 /* Build configuration list for PBXNativeTarget "locartorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4079C018F07CD400B07973 /* Debug */,
+				EF4079C118F07CD400B07973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF40798818F07CD300B07973 /* Project object */;
+}
