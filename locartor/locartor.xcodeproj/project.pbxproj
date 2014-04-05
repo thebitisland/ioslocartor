@@ -12,13 +12,19 @@
 		EF40799818F07CD300B07973 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF40799718F07CD300B07973 /* UIKit.framework */; };
 		EF40799E18F07CD300B07973 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF40799C18F07CD300B07973 /* InfoPlist.strings */; };
 		EF4079A018F07CD300B07973 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF40799F18F07CD300B07973 /* main.m */; };
-		EF4079A418F07CD300B07973 /* TBIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4079A318F07CD300B07973 /* TBIAppDelegate.m */; };
 		EF4079A618F07CD300B07973 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF4079A518F07CD300B07973 /* Images.xcassets */; };
 		EF4079AD18F07CD400B07973 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF4079AC18F07CD400B07973 /* XCTest.framework */; };
 		EF4079AE18F07CD400B07973 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF40799318F07CD300B07973 /* Foundation.framework */; };
 		EF4079AF18F07CD400B07973 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF40799718F07CD300B07973 /* UIKit.framework */; };
 		EF4079B718F07CD400B07973 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF4079B518F07CD400B07973 /* InfoPlist.strings */; };
 		EF4079B918F07CD400B07973 /* locartorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4079B818F07CD400B07973 /* locartorTests.m */; };
+		EF4079C718F07D5400B07973 /* TBIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4079C318F07D5400B07973 /* TBIAppDelegate.m */; };
+		EF4079C818F07D5400B07973 /* TBIMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4079C518F07D5400B07973 /* TBIMapViewController.m */; };
+		EF4079C918F07D5400B07973 /* TBIMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF4079C618F07D5400B07973 /* TBIMapViewController.xib */; };
+		EF4079CD18F07D6700B07973 /* TBISaveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4079CB18F07D6700B07973 /* TBISaveViewController.m */; };
+		EF4079CE18F07D6700B07973 /* TBISaveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF4079CC18F07D6700B07973 /* TBISaveViewController.xib */; };
+		EF4079D218F07F6C00B07973 /* TBIUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4079D118F07F6C00B07973 /* TBIUtils.m */; };
+		EF4079D718F0802300B07973 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF4079D918F0802300B07973 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,14 +46,26 @@
 		EF40799D18F07CD300B07973 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EF40799F18F07CD300B07973 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EF4079A118F07CD300B07973 /* locartor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "locartor-Prefix.pch"; sourceTree = "<group>"; };
-		EF4079A218F07CD300B07973 /* TBIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBIAppDelegate.h; sourceTree = "<group>"; };
-		EF4079A318F07CD300B07973 /* TBIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBIAppDelegate.m; sourceTree = "<group>"; };
 		EF4079A518F07CD300B07973 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EF4079AB18F07CD400B07973 /* locartorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = locartorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF4079AC18F07CD400B07973 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		EF4079B418F07CD400B07973 /* locartorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "locartorTests-Info.plist"; sourceTree = "<group>"; };
 		EF4079B618F07CD400B07973 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EF4079B818F07CD400B07973 /* locartorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = locartorTests.m; sourceTree = "<group>"; };
+		EF4079C218F07D5400B07973 /* TBIAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBIAppDelegate.h; sourceTree = "<group>"; };
+		EF4079C318F07D5400B07973 /* TBIAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBIAppDelegate.m; sourceTree = "<group>"; };
+		EF4079C418F07D5400B07973 /* TBIMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBIMapViewController.h; sourceTree = "<group>"; };
+		EF4079C518F07D5400B07973 /* TBIMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBIMapViewController.m; sourceTree = "<group>"; };
+		EF4079C618F07D5400B07973 /* TBIMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TBIMapViewController.xib; sourceTree = "<group>"; };
+		EF4079CA18F07D6700B07973 /* TBISaveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBISaveViewController.h; sourceTree = "<group>"; };
+		EF4079CB18F07D6700B07973 /* TBISaveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBISaveViewController.m; sourceTree = "<group>"; };
+		EF4079CC18F07D6700B07973 /* TBISaveViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TBISaveViewController.xib; sourceTree = "<group>"; };
+		EF4079D018F07F6C00B07973 /* TBIUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBIUtils.h; sourceTree = "<group>"; };
+		EF4079D118F07F6C00B07973 /* TBIUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBIUtils.m; sourceTree = "<group>"; };
+		EF4079D318F0801000B07973 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF4079D418F0801000B07973 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF4079D818F0802300B07973 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EF4079DA18F0802700B07973 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,9 +125,14 @@
 		EF40799918F07CD300B07973 /* locartor */ = {
 			isa = PBXGroup;
 			children = (
-				EF4079A218F07CD300B07973 /* TBIAppDelegate.h */,
-				EF4079A318F07CD300B07973 /* TBIAppDelegate.m */,
+				EF4079C218F07D5400B07973 /* TBIAppDelegate.h */,
+				EF4079C318F07D5400B07973 /* TBIAppDelegate.m */,
+				EF4079D018F07F6C00B07973 /* TBIUtils.h */,
+				EF4079D118F07F6C00B07973 /* TBIUtils.m */,
+				EF4079DE18F0953B00B07973 /* Images */,
+				EF4079CF18F07DD700B07973 /* Controllers */,
 				EF4079A518F07CD300B07973 /* Images.xcassets */,
+				EF4079DB18F0803A00B07973 /* Resources */,
 				EF40799A18F07CD300B07973 /* Supporting Files */,
 			);
 			path = locartor;
@@ -142,6 +165,34 @@
 				EF4079B518F07CD400B07973 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF4079CF18F07DD700B07973 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EF4079CA18F07D6700B07973 /* TBISaveViewController.h */,
+				EF4079CB18F07D6700B07973 /* TBISaveViewController.m */,
+				EF4079CC18F07D6700B07973 /* TBISaveViewController.xib */,
+				EF4079C418F07D5400B07973 /* TBIMapViewController.h */,
+				EF4079C518F07D5400B07973 /* TBIMapViewController.m */,
+				EF4079C618F07D5400B07973 /* TBIMapViewController.xib */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		EF4079DB18F0803A00B07973 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EF4079D918F0802300B07973 /* Localizable.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		EF4079DE18F0953B00B07973 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,6 +254,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				es,
 			);
 			mainGroup = EF40798718F07CD300B07973;
 			productRefGroup = EF40799118F07CD300B07973 /* Products */;
@@ -220,8 +272,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF4079D718F0802300B07973 /* Localizable.strings in Resources */,
 				EF40799E18F07CD300B07973 /* InfoPlist.strings in Resources */,
+				EF4079C918F07D5400B07973 /* TBIMapViewController.xib in Resources */,
 				EF4079A618F07CD300B07973 /* Images.xcassets in Resources */,
+				EF4079CE18F07D6700B07973 /* TBISaveViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,8 +295,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF4079A418F07CD300B07973 /* TBIAppDelegate.m in Sources */,
+				EF4079C718F07D5400B07973 /* TBIAppDelegate.m in Sources */,
+				EF4079C818F07D5400B07973 /* TBIMapViewController.m in Sources */,
+				EF4079D218F07F6C00B07973 /* TBIUtils.m in Sources */,
 				EF4079A018F07CD300B07973 /* main.m in Sources */,
+				EF4079CD18F07D6700B07973 /* TBISaveViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +326,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				EF40799D18F07CD300B07973 /* en */,
+				EF4079D318F0801000B07973 /* es */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -276,8 +335,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				EF4079B618F07CD400B07973 /* en */,
+				EF4079D418F0801000B07973 /* es */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EF4079D918F0802300B07973 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF4079D818F0802300B07973 /* en */,
+				EF4079DA18F0802700B07973 /* es */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

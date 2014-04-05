@@ -1,6 +1,6 @@
 //
 //  TBIAppDelegate.m
-//  locartor
+//  Locartor
 //
 //  Created by Manu on 05/04/14.
 //  Copyright (c) 2014 thebitisland. All rights reserved.
@@ -15,7 +15,30 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    self.mainVC = [[TBIMapViewController alloc] initWithNibName:nil bundle:nil];
+    
+    
+    UINavigationController *flightNav = [[UINavigationController alloc]initWithRootViewController:self.mainVC];
+    
+    
+    [flightNav.navigationBar setBackgroundImage:[TBIUtils imageWithColor:[UIColor colorWithRed:35.0f/255.0f green:152.0f/255.0f blue:201.0f/255.0f alpha:1]] forBarMetrics:UIBarMetricsDefault];
+    
+    flightNav.navigationBar.tintColor = [UIColor whiteColor];
+
+    
+    
+    self.window.rootViewController = flightNav;
+
     [self.window makeKeyAndVisible];
+
+    
+    // Handle launching from a notification
+    UILocalNotification *locationNotification = [launchOptions objectForKey:UIApplicationLaunchOptionsLocalNotificationKey];
+    if (locationNotification) {
+        // Set icon badge number to zero
+        application.applicationIconBadgeNumber = 0;
+    }
+    
     return YES;
 }
 
@@ -44,6 +67,10 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+-(void)application:(UIApplication *)application didReceiveLocalNotification:(UILocalNotification *)notification {
+    
 }
 
 @end
