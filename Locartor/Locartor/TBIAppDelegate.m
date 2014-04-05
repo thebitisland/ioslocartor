@@ -15,7 +15,12 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    self.mainVC = [[TBIMapViewController alloc] initWithNibName:nil bundle:nil];
+    
+    self.window.rootViewController = self.mainVC;
+
     [self.window makeKeyAndVisible];
+
     return YES;
 }
 
