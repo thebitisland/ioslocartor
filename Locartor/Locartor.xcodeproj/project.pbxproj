@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F8484BE18F05C9C0088C99F /* TBISaveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8484BC18F05C9C0088C99F /* TBISaveViewController.m */; };
+		1F8484BF18F05C9C0088C99F /* TBISaveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F8484BD18F05C9C0088C99F /* TBISaveViewController.xib */; };
 		EF83050718F04E8F00313DCE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF83050618F04E8F00313DCE /* Foundation.framework */; };
 		EF83050918F04E8F00313DCE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF83050818F04E8F00313DCE /* CoreGraphics.framework */; };
 		EF83050B18F04E8F00313DCE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF83050A18F04E8F00313DCE /* UIKit.framework */; };
@@ -35,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F8484BB18F05C9C0088C99F /* TBISaveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBISaveViewController.h; sourceTree = "<group>"; };
+		1F8484BC18F05C9C0088C99F /* TBISaveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBISaveViewController.m; sourceTree = "<group>"; };
+		1F8484BD18F05C9C0088C99F /* TBISaveViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TBISaveViewController.xib; sourceTree = "<group>"; };
 		EF83050318F04E8F00313DCE /* Locartor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Locartor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF83050618F04E8F00313DCE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EF83050818F04E8F00313DCE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -159,6 +164,9 @@
 				EF83053718F04F4300313DCE /* TBIMainViewController.h */,
 				EF83053818F04F4300313DCE /* TBIMainViewController.m */,
 				EF83053918F04F4300313DCE /* TBIMainViewController.xib */,
+				1F8484BB18F05C9C0088C99F /* TBISaveViewController.h */,
+				1F8484BC18F05C9C0088C99F /* TBISaveViewController.m */,
+				1F8484BD18F05C9C0088C99F /* TBISaveViewController.xib */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -242,6 +250,7 @@
 				EF83051118F04E8F00313DCE /* InfoPlist.strings in Resources */,
 				EF83053B18F04F4300313DCE /* TBIMainViewController.xib in Resources */,
 				EF83051918F04E8F00313DCE /* Images.xcassets in Resources */,
+				1F8484BF18F05C9C0088C99F /* TBISaveViewController.xib in Resources */,
 				EF83053618F04ECB00313DCE /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +273,7 @@
 				EF83051718F04E8F00313DCE /* TBIAppDelegate.m in Sources */,
 				EF83051318F04E8F00313DCE /* main.m in Sources */,
 				EF83053A18F04F4300313DCE /* TBIMainViewController.m in Sources */,
+				1F8484BE18F05C9C0088C99F /* TBISaveViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +470,7 @@
 				EF83053118F04E8F00313DCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF83053218F04E8F00313DCE /* Build configuration list for PBXNativeTarget "LocartorTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +479,7 @@
 				EF83053418F04E8F00313DCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
