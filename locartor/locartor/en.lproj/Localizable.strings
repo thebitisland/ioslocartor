@@ -7,3 +7,5 @@
 */
 
 "saveTitle" = "Save Location";
+"saveButton" = "Save";
+"retrieveButton" = "Retrieve";

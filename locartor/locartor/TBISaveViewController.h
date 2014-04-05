@@ -9,11 +9,12 @@
 #import <UIKit/UIKit.h>
 #import <MapKit/MapKit.h>
 
-@interface TBISaveViewController : UIViewController <UINavigationControllerDelegate,MKMapViewDelegate>
+@interface TBISaveViewController : UIViewController <UINavigationControllerDelegate,MKMapViewDelegate,UIScrollViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UIDatePicker *datePicker;
 @property (weak, nonatomic) IBOutlet UIButton *saveLocation;
 @property (strong, nonatomic) IBOutlet UIButton *shareButton;
+@property (strong, nonatomic) IBOutlet UIScrollView *scrollView;
 
 
 @property (weak, nonatomic) IBOutlet MKMapView * map;

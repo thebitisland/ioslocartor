@@ -42,9 +42,6 @@
 {
     [super viewDidLoad];
     
-    NSLog(@"location: %@",self.location);
-
-    
     [self.navigationItem.backBarButtonItem setTintColor:[UIColor whiteColor]];
 
 
@@ -52,22 +49,19 @@
 
     self.navigationController.navigationBarHidden = NO;
     
-
-    //[self.map setCenterCoordinate:self.location.coordinate animated:NO];
     
     self.map.delegate = self;
     self.map.userInteractionEnabled = NO;
     
     CLLocationCoordinate2D noLocation;
-    MKCoordinateRegion viewRegion = MKCoordinateRegionMakeWithDistance(noLocation, 800, 800);
+    MKCoordinateRegion viewRegion = MKCoordinateRegionMakeWithDistance(noLocation, 1000, 1000);
     MKCoordinateRegion adjustedRegion = [self.map regionThatFits:viewRegion];
     
     [self.map setRegion:adjustedRegion animated:YES];
 
     [self.map showsUserLocation];
+    [self adaptViews];
 
-//    UIBarButtonItem *done = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItem target:self action:@selector(doneButtonTapped:)];
-//    self.navigationItem.leftBarButtonItem = done;
     
     // Do any additional setup after loading the view from its nib.
 }
@@ -131,33 +125,24 @@
 
 #pragma mark - MKMapViewDelegate
 
-- (MKAnnotationView *) mapView:(MKMapView *)mapView viewForAnnotation:(id<MKAnnotation>)annotation
+
+#pragma mark - Views Configuration
+
+- (void) adaptViews
 {
+    CGFloat halfScreen = [UIScreen mainScreen].bounds.size.width/2.0f;
+    CGFloat height = 42.0f;
+    CGFloat buttonsVerticalOffset = [UIScreen mainScreen].bounds.size.height-height;
     
-    static NSString *SFAnnotationIdentifier = @"SFAnnotationIdentifier";
-    MKPinAnnotationView *pinView =
-    (MKPinAnnotationView *)[mapView dequeueReusableAnnotationViewWithIdentifier:SFAnnotationIdentifier];
-    if (!pinView)
-    {
-        MKAnnotationView *annotationView = [[MKAnnotationView alloc]
-                                            initWithAnnotation:annotation
-                                            
-                                            reuseIdentifier:SFAnnotationIdentifier] ;
-        
-        UIImage *flagImage = [UIImage imageNamed:@"marker.png"];
-        
-        // You may need to resize the image here.
-        annotationView.image = flagImage;
-        
-        [annotationView setFrame:CGRectMake(0.0f, 0.0f, 30.0f, 30.0f)];
-        return annotationView;
-    }
-    else
-    {
-        pinView.annotation = annotation;
-    }
-    return pinView;
+    //    [_map setFrame:CGRectMake(0.0f, 0.0f,  [UIScreen mainScreen].bounds.size.width, buttonsVerticalOffset)];
+    [_scrollView setFrame:[UIScreen mainScreen].bounds ];
+    [_saveLocation setFrame:CGRectMake(halfScreen, buttonsVerticalOffset,  halfScreen, height)];
+    [_shareButton setFrame:CGRectMake(0.0f, buttonsVerticalOffset,  halfScreen, height)];
+    
+    
+    
 }
+
 
 
 

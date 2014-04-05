@@ -25,6 +25,7 @@
 		EF4079CE18F07D6700B07973 /* TBISaveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF4079CC18F07D6700B07973 /* TBISaveViewController.xib */; };
 		EF4079D218F07F6C00B07973 /* TBIUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4079D118F07F6C00B07973 /* TBIUtils.m */; };
 		EF4079D718F0802300B07973 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF4079D918F0802300B07973 /* Localizable.strings */; };
+		EF4079E618F0991D00B07973 /* carannotation2.png in Resources */ = {isa = PBXBuildFile; fileRef = EF4079E518F0991D00B07973 /* carannotation2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		EF4079D418F0801000B07973 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EF4079D818F0802300B07973 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		EF4079DA18F0802700B07973 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EF4079E518F0991D00B07973 /* carannotation2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carannotation2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 		EF40799A18F07CD300B07973 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EF4079D918F0802300B07973 /* Localizable.strings */,
 				EF40799B18F07CD300B07973 /* locartor-Info.plist */,
 				EF40799C18F07CD300B07973 /* InfoPlist.strings */,
 				EF40799F18F07CD300B07973 /* main.m */,
@@ -183,7 +186,6 @@
 		EF4079DB18F0803A00B07973 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				EF4079D918F0802300B07973 /* Localizable.strings */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -191,6 +193,7 @@
 		EF4079DE18F0953B00B07973 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				EF4079E518F0991D00B07973 /* carannotation2.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 				EF40799E18F07CD300B07973 /* InfoPlist.strings in Resources */,
 				EF4079C918F07D5400B07973 /* TBIMapViewController.xib in Resources */,
 				EF4079A618F07CD300B07973 /* Images.xcassets in Resources */,
+				EF4079E618F0991D00B07973 /* carannotation2.png in Resources */,
 				EF4079CE18F07D6700B07973 /* TBISaveViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

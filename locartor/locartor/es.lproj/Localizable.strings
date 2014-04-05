@@ -8,3 +8,5 @@
 
 
 "saveTitle" = "Guardar Lugar";
+"saveButton" = "Guardar";
+"retrieveButton" = "Recuperar";

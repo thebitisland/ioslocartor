@@ -9,6 +9,7 @@
                 <outlet property="datePicker" destination="UPx-UN-zeS" id="Vpm-Hb-l2u"/>
                 <outlet property="map" destination="VPa-Dv-iRX" id="iuq-2t-dWo"/>
                 <outlet property="saveLocation" destination="rOi-7r-u3u" id="Qsg-Aa-yRx"/>
+                <outlet property="scrollView" destination="18D-JZ-GSD" id="uj2-0W-edj"/>
                 <outlet property="shareButton" destination="1Vl-4i-bNz" id="Vui-Kd-a2d"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
