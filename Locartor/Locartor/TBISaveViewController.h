@@ -10,4 +10,8 @@
 
 @interface TBISaveViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIDatePicker *datePicker;
+@property (weak, nonatomic) IBOutlet UIButton *saveLocation;
+@property (strong, nonatomic) IBOutlet UIButton *shareButton;
+- (IBAction)save:(id)sender;
 @end

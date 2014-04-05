@@ -35,4 +35,23 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)save:(id)sender
+{
+    // Get the current date
+    NSDate *pickerDate = [self.datePicker date];
+    
+    // Schedule the notification
+    UILocalNotification* localNotification = [[UILocalNotification alloc] init];
+    localNotification.fireDate = pickerDate;
+    localNotification.alertBody = @"This is a reminder to retrieve your car";
+    localNotification.alertAction = @"Show me the item";
+    localNotification.timeZone = [NSTimeZone defaultTimeZone];
+    localNotification.applicationIconBadgeNumber = [[UIApplication sharedApplication] applicationIconBadgeNumber] + 1;
+    
+    [[UIApplication sharedApplication] scheduleLocalNotification:localNotification];
+    
+    // Request to reload table view data
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"reloadData" object:self];
+
+}
 @end
