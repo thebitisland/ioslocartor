@@ -1,5 +1,5 @@
 //
-//  TBIAppDelegate.h
+//  TBIMainViewController.h
 //  Locartor
 //
 //  Created by Manu on 05/04/14.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TBIAppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface TBIMainViewController : UIViewController
 
 @end
-    
